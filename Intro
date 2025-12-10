@@ -1,0 +1,59 @@
+Personal Finance Manager
+Project Overview
+
+The Personal Finance Manager is a Python-based command-line application designed to help users efficiently track and manage their personal expenses. Built using object-oriented programming principles, this project emphasizes modularity, maintainability, and real-world applicability. Users can record expenses, generate category-wise summaries, view monthly reports, and back up or restore their data. The application stores all expense records in CSV files for easy persistence and retrieval. With robust input validation, comprehensive error handling, and a user-friendly interactive menu, this tool demonstrates practical Python skills while offering a functional solution for everyday financial management.
+
+Features
+
+Add, view, and manage personal expenses
+
+Generate category-wise summaries of expenses
+
+Generate monthly expense reports
+
+Backup and restore expense data
+
+Input validation and error handling for reliable usage
+
+Modular, maintainable code structure for easy future extensions
+
+Setup Instructions
+
+Clone the repository to your local machine:
+
+git clone <your-repo-url>
+
+
+Navigate to the project directory:
+
+cd PersonalFinanceManager
+
+
+Install required Python dependencies:
+
+pip install -r requirements.txt
+
+
+Run the main application:
+
+python main.py
+
+Usage
+
+Upon running the application, users will see a menu with the following options:
+
+Add a new expense
+
+View all expenses
+
+View category-wise summary
+
+Generate monthly report
+
+Backup data
+
+Restore backup
+
+Exit
+
+Users can interact with the menu by entering the corresponding number. All expenses are saved to a CSV file (data/expenses.csv) and can be backed up or restored as needed.
